@@ -1,3 +1,3 @@
-export default function index() {
-    return "";
-}
+export * from "./isNumber";
+export * from "./isEven";
+export * from "./isOdd";
