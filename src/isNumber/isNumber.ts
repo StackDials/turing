@@ -3,7 +3,7 @@ function isNumber(value: any): boolean {
     return value - value === 0;
   }
   if (typeof value === "string" && value.trim() !== "") {
-    return Number.isFinite ? Number.isFinite(+value) : isFinite(+num);
+    return Number.isFinite ? Number.isFinite(+value) : isFinite(+value);
   }
   return false;
 }

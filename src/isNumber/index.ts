@@ -1,3 +1,3 @@
 import isNumber from "./isNumber";
 
-export { isNumber };
+export default isNumber;
