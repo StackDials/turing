@@ -1,4 +1,4 @@
-import { isNumber } from "../isNumber";
+import isNumber from "../isNumber";
 
 function isOdd(value: any): boolean {
   const n = Math.abs(value);

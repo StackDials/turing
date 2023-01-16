@@ -1,4 +1,4 @@
-import { isOdd } from "../isOdd";
+import isOdd from "../isOdd";
 
 function isEven(value: any): boolean {
   return !isOdd(value);
