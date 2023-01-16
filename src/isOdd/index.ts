@@ -1,3 +1,3 @@
 import isOdd from "./isOdd";
 
-export { isOdd };
+export default isOdd;
