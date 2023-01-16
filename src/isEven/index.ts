@@ -1,3 +1,3 @@
 import isEven from "./isEven";
 
-export { isEven };
+export default isEven;
